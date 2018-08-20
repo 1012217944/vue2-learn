@@ -1,6 +1,8 @@
 # vue2-learan
 An attempt by College student
 
+## vue project install
+
 前置安装 Pre-install
 install node.js  
 npm install -g cnpm --registry="https://registry.npm.taobao.org" 淘宝镜像  
@@ -42,3 +44,7 @@ if you can't, use cnpm.
 
 3. npm install vue-router vue-resource --save  
 if you can't, use cnpm.  
+
+4. npm start
+
+## import element-ui
