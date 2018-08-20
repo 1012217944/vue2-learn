@@ -48,3 +48,6 @@ if you can't, use cnpm.
 4. npm start
 
 ## import element-ui
+
+npm i element-ui -S  
+then import it in main.js

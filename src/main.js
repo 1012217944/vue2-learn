@@ -3,8 +3,16 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import components from './components/'
+import ElementUI from 'element-ui'
 
 Vue.config.productionTip = false
+
+/** 注册 element 组件 */
+Vue.use(ElementUI, {size: 'small'});
+
+/** 注册全局常用组件 */
+components.map(component => Vue.component(component.name, component));
 
 /* eslint-disable no-new */
 new Vue({
